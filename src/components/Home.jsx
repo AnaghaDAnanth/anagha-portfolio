@@ -80,7 +80,7 @@ function Home () {
                     <div className="mb-5 w-40 h-40 rounded-full bg-amber-100 border-3 border-yellow-500 flex items-center justify-center">
                         <img src={profile} className="w-33 h-33 object-contain" alt="Profile" />
                     </div>
-                    <h1 className="text-5xl font-semibold text-gray-600"> Anagha D Ananth </h1>
+                    <h1 className="text-5xl font-semibold text-primary"> Anagha D Ananth </h1>
                     <h2 className="mt-7 text-3xl font-medium min-h-[37px] flex space-x-2">
                         {headline.split(" ").map((word, index) => {
                             const colors = ["text-yellow-500", "text-gray-600"];
@@ -111,13 +111,22 @@ function Home () {
                 </div>
                 </div>
 
-                <div className="w-[55%] mr-30 top-0 max-h-screen overflow-auto pr-6 text-justify">
+                <div className="w-[55%] mr-30 top-0 max-h-screen overflow-auto pr-6 text-justify text-gray-800">
                     <hr id="about" className="w-48 h-0 mt-0" />
-                    <p className="mt-25"> I’m a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only look great but are meticulously built for performance and usability. </p><br></br>
-                    <p> Currently, I'm a Senior Front-End Engineer at Klaviyo, specializing in accessibility. I contribute to the creation and maintenance of UI components that power Klaviyo’s frontend, ensuring our platform meets web accessibility standards and best practices to deliver an inclusive user experience. </p><br></br>
-                    <p> In the past, I've had the opportunity to develop software across a variety of settings — from advertising agencies and large corporations to start-ups and small digital product studios. Additionally, I also released a comprehensive video course a few years ago, guiding learners through building a web app with the Spotify API. </p><br></br>
-                    <p> In my spare time, I’m usually climbing, reading, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds </p><br></br> 
-                    <p> In my spare time, I’m usually climbing, reading, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds </p><br></br> 
+                    <p className="mt-25"> I’m a full stack developer I’m a full stack developer who lives somewhere between the elegance 
+                        of clean code and the chaos of late-night debugging sessions. I'm passionate about building seamless, end-to-end digital 
+                        experiences that are as beautiful as they are functional. I thrive at the intersection of thoughtful design and scalable 
+                        engineering — crafting applications that not only look polished but are architected for performance, maintainability, and 
+                        accessibility. </p><br></br>
+                    <p> Right now, I’m crafting code at <text className="text-gray-700 font-bold font-medium hover:text-amber-400 transition-all duration-300"> SAP Labs </text>, where I work across the stack to bring new features to life — from designing APIs
+                        and managing data flows to refining user interfaces for clarity and usability. I also play an active role in maintaining our
+                        component libraries and engineering standards to ensure consistency and efficiency across teams. </p><br></br>
+                    <p> Over the years, I’ve had the chance to wear many hats — including a stint in the data science and machine learning world. 
+                        I’ve always been fascinated by the power of data: how a few well-structured rows can unlock insights, drive decisions, 
+                        and shape entire products. While my day-to-day now leans more into full stack engineering, my passion for data remains strong, 
+                        and I make it a point to keep learning, experimenting, and staying connected to the field whenever I can. </p><br/>
+                    <p> When I’m off the clock,  you’ll probably find me curled up with a good book, singing along to whatever’s playing (on or
+                        off key — no promises), binging a podcast, or doting on my adorable fur baby who runs the household with zero apologies.</p><br></br> 
                     <hr id="experience" className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded-sm md:my-10 dark:bg-gray-700 mt-0" />
                     
                     <Experience/>
@@ -128,7 +137,7 @@ function Home () {
                     
                     <Projects/>
 
-                    <p className="ml-5 mb-10 text-xs"> Loosely inspired by Brittany Chiang. Coded in Visual Studio Code. Built with React and Tailwind CSS, deployed with Vercel. </p>
+                    <p className="ml-5 mb-10 text-xs"> Design inspired by Brittany Chiang. Coded in Visual Studio Code. Built with React and Tailwind CSS, deployed with Vercel. </p>
                 </div>
         </section>
     );

@@ -1,4 +1,5 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
+import resume from '../assets/documents/Resume_AnaghaDAnanth.pdf'
 
 function Experience () {
     return (
@@ -131,7 +132,7 @@ function Experience () {
                     </div>
                 </div>
             </div>
-            <a href="./src/assets/documents/Resume_AnaghaDAnanth.pdf" target="_blank" rel="noopener noreferrer" className="mt-7 ml-5 text-gray-500 text-xl inline-flex 
+            <a href={resume} target="_blank" rel="noopener noreferrer" className="mt-7 ml-5 text-gray-500 text-xl inline-flex 
             items-center space-x-1"> 
                 View Resume <FaExternalLinkAlt className="ml-2 text-base hover:text-xl hover:text-amber-400 transition-all duration-300"/> 
             </a>

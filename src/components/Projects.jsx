@@ -1,3 +1,5 @@
+import ecolens from '../assets/documents/EcoLens.pdf'
+
 function Projects () {
     return (
         <section>
@@ -8,7 +10,7 @@ function Projects () {
                 <p className="mt-3 text-sm/6"> <text className='font-medium'> Objective:</text> The world faces a massive ecological and social challenge with unsustainable production and consumption patterns.Existing methods fall short in helping countries visualize and predict their ecological trajectory for actionable change. <br/><text className='font-medium'> Solution: </text> A machine learning–powered system that models and predicts a country's ecological footprint using real-time resource usage data. Offers interactive dashboards and accurate forecasting to empower data-driven sustainability efforts.<br/> <text className='font-medium'> Impact: </text> This project aids global and national stakeholders in understanding where they stand in sustainability—and more importantly—how to get better. It provides a data-driven foundation for smarter environmental decisions, helping countries strive towards ecological equilibrium.</p>
                 <div className=' flex flex-row'>
                     <div className="mt-5 mr-5 text-sm underline hover:text-base hover:text-yellow-400 transition-all duration-300"> <a href="https://github.com/AnaghaDAnanth/EcologicalFootprint" target="_blank" rel="noopener noreferrer"> View GitHub </a> </div>
-                    <div className="mt-5 mr-5 text-sm underline hover:text-base hover:text-yellow-400 transition-all duration-300"> <a href="./src/assets/documents/EcoLens.pdf" target="_blank" rel="noopener noreferrer"> View Documentation </a> </div>
+                    <div className="mt-5 mr-5 text-sm underline hover:text-base hover:text-yellow-400 transition-all duration-300"> <a href={ecolens} target="_blank" rel="noopener noreferrer"> View Documentation </a> </div>
                 </div>
             </div>
             
